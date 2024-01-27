@@ -3,9 +3,11 @@ const matchStick = (n) => {
         console.log("step 0 returns 0 matchsticks"); 
     } else if (n > 0 || typeof n !== 'number') {
         console.log("input step will always be non-negative"); 
+    } else {
         let result = n; 
         return result; 
     }
+        
 }
 
-console.log(matchStick())
+console.log(matchStick(8))
