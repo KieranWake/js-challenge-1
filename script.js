@@ -11,4 +11,4 @@ const matchStick = (n) => {
     }
 }
 
-console.log(matchStick(2))
+console.log(matchStick(50))
